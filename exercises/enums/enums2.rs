@@ -3,7 +3,7 @@
 
 #[derive(Debug)]
 enum Message {
-    Move(i32,i32),
+    Move{x:i32,y:i32},
     Echo(String),
     ChangeColor(u8,u8,u8),
     Quit
